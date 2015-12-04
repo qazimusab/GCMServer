@@ -48,7 +48,7 @@ def get_devices():
 
 
 @app.route('/drop_devices_table', methods=['POST'])
-def get_devices():
+def drop_devices_table():
     cursor = get_db().cursor()
     query = "DROP TABLE devices;"
     cursor.execute(query)
