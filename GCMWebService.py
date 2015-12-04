@@ -47,6 +47,15 @@ def get_devices():
     return jsonify({'devices': query_db('select * from devices')})
 
 
+@app.route('/drop_devices_table', methods=['POST'])
+def get_devices():
+    cursor = get_db().cursor()
+    query = "DROP TABLE devices;"
+    cursor.execute(query)
+    cursor.close()
+    get_db().commit()
+
+
 @app.route("/device_registration_id/<device_id>", methods=['POST'])
 def post_dev_id(device_id):
     cursor = get_db().cursor()
