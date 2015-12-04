@@ -20,6 +20,12 @@ def get_db():
         db = g.db = connect_db()
     return db
 
+def query_db(query, args=(), one=False):
+    cur = get_db().execute(query, args)
+    rv = cur.fetchall()
+    cur.close()
+    return (rv[0] if rv else None) if one else rv
+
 @app.before_request
 def before_request():
     g.db = get_db()
@@ -34,6 +40,11 @@ def teardown_request(exception):
 @app.route('/get_project_number', methods=['GET'])
 def get_project_number():
     return jsonify({'projectNumber': projectNumber})
+
+
+@app.route('/get_all_devices', methods=['GET'])
+def get_devices():
+    return jsonify({'devices': query_db('select * from devices')})
 
 
 @app.route("/device_registration_id/<device_id>", methods=['POST'])
