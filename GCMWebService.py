@@ -6,6 +6,7 @@ from flask_mail import Mail
 from flask_mail import Message
 
 app = Flask(__name__)
+app.debug = True
 mail = Mail(app)
 
 app.config.update(
@@ -83,7 +84,7 @@ def drop_devices_table():
 @app.route("/device_registration_id/<device_id>", methods=['POST'])
 def post_dev_id(device_id):
     cursor = get_db().cursor()
-    query = "CREATE TABLE IF NOT EXISTS devices (id VARCHAR(1000) NOT NULL PRIMARY KEY phone VARCHAR(100));"
+    query = "CREATE TABLE IF NOT EXISTS devices (id VARCHAR(1000) NOT NULL PRIMARY KEY, phone VARCHAR(100));"
     cursor.execute(query)
     query = "INSERT INTO devices (id) VALUES ('" + device_id[device_id.index(':')+1] + "');"
     cursor.execute(query)

@@ -5,7 +5,8 @@
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
     <table name="devices" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="VARCHAR(500)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="id" sqlType="VARCHAR(1000)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="phone" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <primary-key columns="id"/>
     </table>
   </data-source>
