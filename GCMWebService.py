@@ -86,9 +86,9 @@ def post_dev_id(device_id):
     cursor = get_db().cursor()
     query = "CREATE TABLE IF NOT EXISTS devices (id VARCHAR(1000) NOT NULL PRIMARY KEY, phone VARCHAR(100));"
     cursor.execute(query)
-    query = "INSERT INTO devices (id) VALUES ('" + device_id[device_id.index(':')+1] + "');"
-    cursor.execute(query)
-    query = "INSERT INTO devices (phone) VALUES ('" + device_id[0, device_id.index(':')] + "');"
+    phone = device_id[device_id.index(':')+1:]
+    regid = device_id[:device_id.index(':')+0]
+    query = "INSERT INTO devices (id, phone) VALUES ('" + regid + "', '" + phone + "');"
     cursor.execute(query)
     cursor.close()
     get_db().commit()
