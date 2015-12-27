@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339769ec-93fc-428d-b564-5b5a0fe393f3" name="Default" comment="">
+    <list default="true" id="339769ec-93fc-428d-b564-5b5a0fe393f3" name="Default" comment="added gitignore">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCMWebService.py" afterPath="$PROJECT_DIR$/GCMWebService.py" />
     </list>
@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GCMServer$GCMWebService.coverage" NAME="GCMWebService Coverage Results" MODIFIED="1449207181930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GCMServer$GCMWebService.coverage" NAME="GCMWebService Coverage Results" MODIFIED="1451178373844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,45 +41,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GCMWebService.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GCMWebService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GCMWebService.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-=======
-            <state vertical-scroll-proportion="0.6407186">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
->>>>>>> cfef14db299fe43e50eb6e9dc23b5d8fbe275042
+            <state vertical-scroll-proportion="0.79545456">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-                <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-                <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+                <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+                <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+                <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="database.db" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08982036">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f351a1a-9364-4ec0-a6d9-bcc13d990af1/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-=======
       <file leaf-file-name="devices" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/5c0b16f/3f351a1a-9364-4ec0-a6d9-bcc13d990af1/devices">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -90,7 +68,6 @@
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> cfef14db299fe43e50eb6e9dc23b5d8fbe275042
               <folding />
             </state>
           </provider>
@@ -446,42 +423,39 @@
       <option name="project" value="LOCAL" />
       <updated>1449207743416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added gitignore">
+      <created>1451167905253</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1451167905253</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="788" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2687776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34051725" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> cfef14db299fe43e50eb6e9dc23b5d8fbe275042
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34051725" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -510,11 +484,11 @@
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-            <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-            <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+            <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+            <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+            <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -538,11 +512,11 @@
           <caret line="38" column="35" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-            <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-            <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+            <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+            <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+            <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -558,26 +532,14 @@
     <entry file="file://$PROJECT_DIR$/GCMWebService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1449204368000" expanded="true" signature="959:972" placeholder="CREATE TABLE..devices..." />
-            <marker date="1449204368000" expanded="true" signature="959:1032" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449204368000" expanded="true" signature="1074:1123" placeholder="INSERT INTO devices..." />
-            <marker date="1449204368000" expanded="true" signature="1074:1124" placeholder="INSERT INTO devices..." />
-            <marker date="1449204368000" expanded="true" signature="1074:1127" placeholder="INSERT INTO devices..." />
-            <marker date="1449204368000" expanded="true" signature="1074:1128" placeholder="INSERT INTO devices..." />
-          </folding>
-=======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-            <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-            <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+            <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+            <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+            <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -588,11 +550,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-            <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-            <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+            <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+            <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+            <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -601,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33259913">
           <caret line="771" column="0" selection-start-line="771" selection-start-column="0" selection-end-line="771" selection-end-column="0" />
->>>>>>> cfef14db299fe43e50eb6e9dc23b5d8fbe275042
         </state>
       </provider>
     </entry>
@@ -640,24 +601,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.db">
+    <entry file="file://$PROJECT_DIR$/GCMWebService.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.08982036">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-=======
-        <state vertical-scroll-proportion="0.6407186">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.79545456">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451167698000" expanded="true" signature="1169:1190" placeholder="select * fro..devices..." />
-            <marker date="1451167698000" expanded="true" signature="1319:1337" placeholder="DROP TABLE d..." />
-            <marker date="1451167698000" expanded="true" signature="1323:1337" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1549:1622" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451167698000" expanded="true" signature="1664:1717" placeholder="INSERT INTO devices..." />
+            <marker date="1451178373000" expanded="true" signature="1175:1196" placeholder="select * fro..devices..." />
+            <marker date="1451178373000" expanded="true" signature="1325:1343" placeholder="DROP TABLE d..." />
+            <marker date="1451178373000" expanded="true" signature="1329:1343" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1555:1628" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451178373000" expanded="true" signature="1670:1723" placeholder="INSERT INTO devices..." />
           </folding>
->>>>>>> cfef14db299fe43e50eb6e9dc23b5d8fbe275042
         </state>
       </provider>
     </entry>
