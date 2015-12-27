@@ -15,4 +15,3 @@ plac==0.9.1
 preshed==0.43
 py2app==0.7.3
 Flask-Mail==0.9.1
-

@@ -6,8 +6,19 @@ from flask_mail import Mail
 from flask_mail import Message
 
 app = Flask(__name__)
-mail = Mail()
+mail = Mail(app)
 
+app.config.update(
+    # EMAIL SETTINGS
+    MAIL_SERVER='smtp.gmail.com',
+    MAIL_PORT=465,
+    MAIL_USE_SSL=True,
+    MAIL_USE_TLS=False,
+    MAIL_USERNAME='musab.ahmed@gmail.com',
+    MAIL_PASSWORD='23201994Cc'
+)
+
+mail = Mail(app)
 DATABASE = 'database.db'
 names = ["Habib", "Okanla"]
 apiKey = "APA91bHARLcYAZ-zHZUL99bSEdpVbigGRH7TSn9CH44ov8ss6O8FKC9D6O58s3zNf4YwQmkVWLinq2dTv6hYB1ZgrWfNJUBupvuRzu_c7DX0949t7J-Ls1LWaZ97fuyLtWzK1JnvhuGU"
@@ -16,6 +27,13 @@ projectNumber = "933940496191"
 
 def connect_db():
     return sqlite3.connect(DATABASE)
+
+
+def send_email(subject, sender, recipients, text_body, html_body):
+    msg = Message(subject, sender=sender, recipients=recipients)
+    msg.body = text_body
+    msg.html = html_body
+    mail.send(msg)
 
 
 def get_db():
@@ -75,11 +93,8 @@ def post_dev_id(device_id):
 
 @app.route("/send_location/<url>", methods=['POST'])
 def send_location(url):
-    msg = Message("Location",
-                  sender="tracker@gmail.com",
-                  recipients=["musab.ahmed@gmail.com"],
-                  body=url)
-    mail.send(msg)
+    send_email('Location', 'musab.ahmed@gmail.com', ['musab.ahmed@gmail.com'], url, None)
+    return "Sent"
 
 
 if __name__ == '__main__':
