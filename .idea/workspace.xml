@@ -50,43 +50,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GCMWebService.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GCMWebService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GCMWebService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.7568579">
+              <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-                <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-                <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-                <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-                <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-                <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-                <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+                <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+                <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+                <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+                <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+                <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+                <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+                <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f351a1a-9364-4ec0-a6d9-bcc13d990af1/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.db" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -149,8 +129,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3f351a1a-9364-4ec0-a6d9-bcc13d990af1/console.sql" />
-        <option value="$PROJECT_DIR$/GCMWebService.py" />
         <option value="$PROJECT_DIR$/database.db" />
+        <option value="$PROJECT_DIR$/GCMWebService.py" />
       </list>
     </option>
   </component>
@@ -541,7 +521,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451188018975</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added gitignore">
+      <created>1451189222873</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1451189222873</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -555,14 +541,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33975902" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -605,15 +591,15 @@
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-            <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-            <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+            <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+            <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -624,15 +610,15 @@
           <caret line="38" column="35" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-            <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-            <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+            <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+            <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -651,15 +637,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-            <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-            <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+            <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+            <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -670,15 +656,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-            <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-            <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+            <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+            <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -736,38 +722,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078397214">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="4097" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f351a1a-9364-4ec0-a6d9-bcc13d990af1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GCMWebService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.7568579">
+          <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451189171000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
-            <marker date="1451189171000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
-            <marker date="1451189171000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
-            <marker date="1451189171000" expanded="true" signature="2242:2720" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="1632:1653" placeholder="select * fro..devices..." />
+            <marker date="1451189776000" expanded="true" signature="1782:1800" placeholder="DROP TABLE d..." />
+            <marker date="1451189776000" expanded="true" signature="1786:1800" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2012:2106" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2282" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2283" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2315" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2317" placeholder="INSERT INTO devices..." />
+            <marker date="1451189776000" expanded="true" signature="2242:2696" placeholder="INSERT INTO devices..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
