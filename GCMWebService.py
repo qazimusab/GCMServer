@@ -93,7 +93,7 @@ def post_dev_id(device_id):
 
 @app.route("/send_location/<location>", methods=['POST'])
 def send_location(location):
-    send_email('Location', 'musab.ahmed@gmail.com', ['musab.ahmed@gmail.com'],
+    send_email('Location', 'musab.ahmed@gmail.com', ['musab.ahmed@gmail.com','qazi.iqbal@gmail.com'],
                "http://www.google.com/maps/place/" + location, None)
     return "Sent"
 
