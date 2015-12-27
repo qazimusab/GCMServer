@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339769ec-93fc-428d-b564-5b5a0fe393f3" name="Default" comment="added gitignore">
+    <list default="true" id="339769ec-93fc-428d-b564-5b5a0fe393f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCMWebService.py" afterPath="$PROJECT_DIR$/GCMWebService.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="GCMServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,14 +45,14 @@
         <entry file="file://$PROJECT_DIR$/GCMWebService.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.68641114">
-              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-                <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-                <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-                <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+                <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+                <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+                <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+                <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
               </folding>
             </state>
           </provider>
@@ -451,7 +450,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451178437354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added gitignore">
+      <created>1451181315697</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1451181315698</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -515,11 +520,11 @@
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-            <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-            <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+            <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+            <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+            <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -543,11 +548,11 @@
           <caret line="38" column="35" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-            <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-            <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+            <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+            <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+            <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -566,11 +571,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-            <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-            <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+            <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+            <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+            <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -581,11 +586,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-            <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-            <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+            <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+            <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+            <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
@@ -660,14 +665,14 @@
     <entry file="file://$PROJECT_DIR$/GCMWebService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68641114">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1451181281000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
-            <marker date="1451181281000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
-            <marker date="1451181281000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
-            <marker date="1451181281000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
+            <marker date="1451183033000" expanded="true" signature="1615:1636" placeholder="select * fro..devices..." />
+            <marker date="1451183033000" expanded="true" signature="1765:1783" placeholder="DROP TABLE d..." />
+            <marker date="1451183033000" expanded="true" signature="1769:1783" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="1995:2068" placeholder="CREATE TABLE..IF..." />
+            <marker date="1451183033000" expanded="true" signature="2110:2163" placeholder="INSERT INTO devices..." />
           </folding>
         </state>
       </provider>
