@@ -83,7 +83,7 @@ def drop_devices_table():
 @app.route("/device_registration_id/<device_id>", methods=['POST'])
 def post_dev_id(device_id):
     cursor = get_db().cursor()
-    query = "CREATE TABLE IF NOT EXISTS devices (id VARCHAR(500) NOT NULL PRIMARY KEY);"
+    query = "CREATE TABLE IF NOT EXISTS devices (id VARCHAR(1000) NOT NULL PRIMARY KEY);"
     cursor.execute(query)
     query = "INSERT INTO devices (id) VALUES ('" + device_id + "');"
     cursor.execute(query)
@@ -91,9 +91,10 @@ def post_dev_id(device_id):
     get_db().commit()
 
 
-@app.route("/send_location/<url>", methods=['POST'])
-def send_location(url):
-    send_email('Location', 'musab.ahmed@gmail.com', ['musab.ahmed@gmail.com'], "http://www.google.com/maps/place/"+url, None)
+@app.route("/send_location/<location>", methods=['POST'])
+def send_location(location):
+    send_email('Location', 'musab.ahmed@gmail.com', ['musab.ahmed@gmail.com'],
+               "http://www.google.com/maps/place/" + location, None)
     return "Sent"
 
 
